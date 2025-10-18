@@ -18,7 +18,18 @@ const DEFAULT_PATH_MAPPINGS = {
 			'/query-dns': '/dns-query',
 		},
 	},
-	// Add more path mappings as needed
+	'/ali': {
+		targetDomain: 'dns.alidns.com',
+		pathMapping: {
+			'/query-dns': '/dns-query',
+		},
+	},
+  '/tencent': {
+		targetDomain: 'dot.pub',
+		pathMapping: {
+			'/query-dns': '/dns-query',
+		},
+	},
 };
 
 const HOMEPAGE_HTML = `<!DOCTYPE html>
